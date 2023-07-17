@@ -1,0 +1,4 @@
+#!/bin/bash
+input="Your input string A and c will be replaced."
+modified=$(echo "$input" | tr 'Ac' 'Ze')
+echo "$modified"

@@ -1,0 +1,4 @@
+#!/bin/bash
+input="Your input string with c and C."
+modified=$(echo "$input" | tr -d 'cC')
+echo "$modified"

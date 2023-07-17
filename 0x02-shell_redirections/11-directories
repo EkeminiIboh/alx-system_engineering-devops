@@ -1,0 +1,9 @@
+#!/bin/bash
+count=0
+for dir in */; do
+    # Exclude current and parent directories
+    if [[ "$dir" != "./" && "$dir" != "../" ]]; then
+        ((count++))
+    fi
+done
+echo "Number of directories and subdirectories: $count"

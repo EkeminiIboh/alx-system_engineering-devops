@@ -1,0 +1,4 @@
+#!/bin/bash
+output_file="ls_cwd_content"
+ls -la > "$output_file"
+echo "ls -la output written to '$output_file'."
